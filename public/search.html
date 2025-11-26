@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kocina | Recipes HTML Pages</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- navbar section start -->
+    <div class="container">
+        <div class="row p-3">
+            <div class="col">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <h1 class="navbar-brand text-danger fw-bold fs-2">Kocina</h1>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav ms-5 ">
+                                <a class="nav-link text-dark me-3 " aria-current="page" href="recipes.html">Home</a>
+                                <a class="nav-link text-dark me-3" href="details.html">Recipe</a>
+                                <a class="nav-link text-dark me-3" href="search.html">Search</a>
+                                <a class="nav-link text-dark me-3" href="contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+                            </div>
+                        </div>
+                        <nav class="navbar navbar-light bg-light">
+                            <form class="container-fluid justify-content-start">
+                                <span class="fa  fa-search text-secondary"></span>
+                                <button class="btn  border-0 rounded-pill pe-4 ps-4 p-2 ms-1 text-white"
+                                    type="button"><a href="signin.html" class="text-dark">Sign in</a></button>
+                                <button
+                                    class="btn btn-sm  bg-danger text-white pe-4 ps-4 p-2 ms-3 rounded-pill"
+                                    type="button"><a href="signup.html" class="text-white">Sign up</a></button>
+                            </form>
+                        </nav>
+                    </div>
+                </nav>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- navbar secction ends -->
+
+
+    
+
+    <!-- recipes section start -->
+    <div class="container mt-5">
+        <div class="row">
+            
+
+            <div class="col-lg-12 col-md-8 col-12">
+                <div class="right-side mt-3">
+                    <form class="d-flex flex-wrap gap-2 align-items-center mb-4 justify-content-between">
+                        <div class="position-relative w-75">
+                            <span
+                                class="fa fa-search position-absolute top-50 start-0 translate-middle-y ps-3 text-secondary"></span>
+                            <input type="search" class="form-control ps-5 py-2 bg-light border-0"
+                                placeholder="Search for recipes..." id="searchInput">
+                        </div>
+                        <button class="btn btn-danger rounded-pill px-4 py-2 ms-5">
+                            Sort by Latest <i class="fa fa-sort ms-2"></i>
+                        </button>
+                    </form>
+
+
+                    <div class="row" id="recipe">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- recipes section ends -->
+
+
+    <!-- footer section start  -->
+
+    <footer class="bg-light text-dark pt-5 pb-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="footerbar d-flex justify-content-between">
+                    <h5 class="fw-bold text-danger mb-5 navbar-brand fs-1">Kocina</h5>
+                    <div class="mt-3">
+                        <a href="#" class="text-dark me-3  border border-dark rounded-circle text-dark text-decoration-none p-2"><span class="fa fa-facebook-f"   style="color: #1877F2;"></span></a>
+                        <a href="#" class=" me -3 border border-dark rounded-circle text-dark text-decoration-none p-2 "><span class="fa fa-instagram"  style="color: #E1306C;"></span></a>
+                        <a href="#" class="text-dark ms-3 border border-dark rounded-circle text-dark text-decoration-none p-2"><span class="fa fa-twitter"   style="color: #1877F2;"></span></a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+
+                    <ul>
+                        <li><a href="#" class="text-dark text-decoration-none">Presentations</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Professionals</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Stores</a></li>
+                    </ul>
+                    <p class="small mt-5">Made by Unbound Studio in Guatemala City</p>
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                    <ul>
+                        <li><a href="#" class="text-dark text-decoration-none">Webinars</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Workshops</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Local Meetups</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                    <ul>
+                        <li><a href="#" class="text-dark text-decoration-none">Our Initiatives</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Giving Back</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Communities</a></li>
+                    </ul>
+                </div>
+                 <div class="col-sm-6 col-md-3  col-12 mb-4">
+                     <ul >
+                        <li><a href="#" class="text-dark text-decoration-none">Contact Form</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Work With Us</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Visit Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section ends -->
+
+
+    <script>
+         let recipe = document.getElementById("recipe");
+        let searchInput = document.getElementById("searchInput");
+        let recipedata =[];
+          async function FetchRecipes() {
+            let recipedata = await (await (fetch("https://dummyjson.com/recipes"))).json();
+
+             recipes = recipedata["recipes"];
+
+            console.log(recipes);
+
+            recipes.map((value, index) => {
+                document.getElementById("recipe").innerHTML += `
+                      <div class="col-sm-6 col-lg-3">
+                            <div class="recipes-items">
+                                <a href ="details.html?id=${value.id}">
+                                    <img src="${value.image}"
+                                    alt="">
+                                </a>
+                                <div class="recipes mt-4">
+                                    <h2 class="fs-5">${value.name}</h2>
+                                    <div class="reviwe d-flex justify-content-between mt-3">
+                                        <span class="fa fa-star text-warning"><a class="text-secondary">
+                                                 ${value.rating}</a></span>
+                                        <h5 class="text-secondary">${value.cuisine}</h5>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                `;
+            })
+
+             searchInput.addEventListener("input", (e) => {
+                let searchText = e.target.value.toLowerCase();
+                console.log(searchText);
+
+                console.log(recipedata);
+                
+                let filtered = recipes.filter(recipesearch =>
+                    recipesearch.name.toLowerCase().includes(searchText)
+                );
+                
+                console.log(filtered);
+                Listfiltererecipe(filtered);
+            })
+
+            function Listfiltererecipe(recipes){
+                recipe.innerHTML ="";
+                    recipes.map((value,index)=>{
+                        recipe.innerHTML += `
+                             <div class="col-sm-6 col-lg-3">
+                            <div class="recipes-items">
+                                <img src="${value.image}"
+                                    alt="">
+                                <div class="recipes mt-4">
+                                    <h2 class="fs-5">${value.name}</h2>
+                                    <div class="reviwe d-flex justify-content-between mt-3">
+                                        <span class="fa fa-star text-warning"><a class="text-secondary">
+                                                 ${value.rating}</a></span>
+                                        <h5 class="text-secondary">${value.cuisine}</h5>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        `;
+                    })
+
+
+            }
+        }
+        FetchRecipes();
+    </script>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

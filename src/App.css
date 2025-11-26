@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+.navbar-brand {
+    font-family: "Lobster", sans-serif;
+}
+
+.navbar-brand h1 {
+    color: red !important;
+}
+.low-opacity{
+    height: 500px;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 20px;
+}
+
+.hero-sec {
+    height: 500px;
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/2307786397/display_1500/stock-photo-young-girl-sitting-on-counter-in-modern-kitchen-pouring-waffle-batter-2307786397.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+   
+}
+.hero{
+    padding: 80px !important;
+}
+.hero h1{
+    margin-bottom: 20px;
+}
+.hero p{
+    line-height: 30 px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.hero a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+li{
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+.recipes-items{
+    margin-top: 40px;
+}
+.recipes-items img{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+}
+.reviwe h5{
+    font-size: 18px;
+}
+.recipes{
+    margin-left: 10px !important;
+}
+
+/* details pages */
+
+.recipe-items p{
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(108, 99, 99);
+}
+.details-pregraphs p{
+    line-height: 35px;
+}
+
+/* contact pages */
+input{
+    color: white;
+}
+.contact-details p{
+    font-size: 17px;
+    line-height: 30px;
+}
+.contact-details button{
+    padding: 20px 30px;
+}
+.contact-from{
+    background-color: #eb4a36;
+    border-radius: 20px;
+}
+.send{
+    padding: 10px 30px;
+   
+}
+
+/* sign in page */
+
+.icon{
+    margin-top: 20px;
+    padding: 15px 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    color:  #1877F2;
+    font-size: 20px;
+}
+.icos{
+     margin-top: 20px;
+    padding: 15px 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    color:  #E1306C;
+    font-size: 20px;
+}
+.icon:hover{
+    background-color: #1877F2;
+    color: white;
+    border: none;
+    transition: 0.2s;
+}
+.icos:hover{
+    background-color: #E1306C;
+    color: white;
+    border: none;
+     transition: 0.2s;
+}
