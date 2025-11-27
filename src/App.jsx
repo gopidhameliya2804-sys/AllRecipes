@@ -9,9 +9,9 @@ import Details from "./Pages/Details";
 import Contact from "./Pages/Contact";
 import Signin from "./Pages/Signin";
 import Signup from "./Pages/Signup";
-import Recipes from "./Pages/recipes";
 import Recipebytag from "./Pages/recipebytag";
 import SearchResults from "./Pages/SearchResults";
+import AllRecipes from "./Pages/AllRecipes";
 
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
             <Route path="/search" element={<Search/>} />
             <Route path="/searchResults" element={<SearchResults/>} />
             <Route path="/details/:onerecipe" element={<Details/>} />
-            <Route path="/recipes" element={<Recipes/>} />
+            <Route path="/allrecipes" element={<AllRecipes/>} />
             <Route path="/recipebytag/:tag" element={<Recipebytag/>} />
             <Route path="/contact" element={<Contact/>} />
             <Route path="/signin" element={<Signin/>} />

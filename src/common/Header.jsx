@@ -38,7 +38,7 @@ function Header() {
                       </Link>
                       <Link
                         className="nav-link text-dark  me-3 "
-                        to="recipes"
+                        to="allrecipes"
                       >
                         Recipe
                       </Link>
