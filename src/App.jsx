@@ -9,9 +9,9 @@ import Details from "./Pages/Details";
 import Contact from "./Pages/Contact";
 import Signin from "./Pages/Signin";
 import Signup from "./Pages/Signup";
-import Recipebytag from "./Pages/recipebytag";
 import SearchResults from "./Pages/SearchResults";
 import AllRecipes from "./Pages/AllRecipes";
+import RecipebytagComopnent from "./Pages/RecipebytagComopnent";
 
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
             <Route path="/searchResults" element={<SearchResults/>} />
             <Route path="/details/:onerecipe" element={<Details/>} />
             <Route path="/allrecipes" element={<AllRecipes/>} />
-            <Route path="/recipebytag/:tag" element={<Recipebytag/>} />
+            <Route path="/recipebytag/:tag" element={<RecipebytagComopnent />} />
             <Route path="/contact" element={<Contact/>} />
             <Route path="/signin" element={<Signin/>} />
             <Route path="/signup" element={<Signup/>} />

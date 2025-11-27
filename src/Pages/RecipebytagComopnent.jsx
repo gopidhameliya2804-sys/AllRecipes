@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
-function Recipebytag() {
+function RecipebytagComopnent() {
   let [data, setData] = useState([]);
   let [category, setCategory] = useState([]);
 
@@ -18,19 +18,20 @@ function Recipebytag() {
         setData(recipe.recipes);
       });
   }, [tag]);
-  
+
   useEffect(() => {
-      fetch("https://dummyjson.com/recipes/tags")
+    fetch("https://dummyjson.com/recipes/tags")
       .then((response) => {
-          return response.json();
-        })
-        .then((tags) => {
-            console.log(tags);
-            setCategory(tags);
-        });
-    }, []);
-    console.log(category);
-    return (
+        return response.json();
+      })
+      .then((tags) => {
+        console.log(tags);
+        setCategory(tags);
+      });
+  }, []);
+  console.log(category);
+
+  return (
     <div>
       <div>
         {/* hero section start */}
@@ -134,4 +135,4 @@ function Recipebytag() {
   );
 }
 
-export default Recipebytag;
+export default RecipebytagComopnent;
